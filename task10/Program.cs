@@ -2,4 +2,10 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
-Console.WriteLine("Hello, World!");
+
+Console.Clear();
+Console.Write("введите трехзначное число = ");
+int number = int.Parse(Console.ReadLine());
+
+int rezult = (number/10) % 10;
+Console.WriteLine(number + " -> " + rezult);
