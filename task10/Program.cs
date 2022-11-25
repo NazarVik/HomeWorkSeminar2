@@ -9,3 +9,4 @@ int number = int.Parse(Console.ReadLine());
 
 int rezult = (number/10) % 10;
 Console.WriteLine(number + " -> " + rezult);
+
